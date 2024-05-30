@@ -2,6 +2,7 @@
 
 
 
+
 # Custom version
 # mohist / catserver   Install forge   first
 # purpur               Install fabric  first
@@ -9,8 +10,8 @@
 
 # Ngrok region
 # Code           Place
-#-------------------------------------------
-# ap	      Asia/Pacific (Singapore)
+#-----------     ---------------------------
+# ap	          Asia/Pacific (Singapore)
 # au		  Australia (Sydney)
 # eu		  Europe (Frankfurt)
 # in		  India (Mumbai)
@@ -18,6 +19,18 @@
 # sa		  South America (São Paulo)
 # us		  United States (Ohio)
 # us-cal-1	  United States (California)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -42,4 +55,4 @@ flnm=download_latest_release()
 if flnm.split(".")[-1] == "pyc":
     os.system(f"python3 {flnm}")
 else:
-	os.system(f"chmod +x {flnm} && ./{flnm}") 
+	os.system(f"chmod +x {flnm} && ./{flnm}")
